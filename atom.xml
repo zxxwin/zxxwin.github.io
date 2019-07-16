@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxxwin.github.io</id>
     <title>Gridea</title>
-    <updated>2019-07-16T01:51:21.754Z</updated>
+    <updated>2019-07-16T01:58:59.310Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxxwin.github.io"/>
     <link rel="self" href="https://zxxwin.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://zxxwin.github.io/images/avatar.png</logo>
     <icon>https://zxxwin.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://zxxwin.github.io/post/about</id>
+        <link href="https://zxxwin.github.io/post/about">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://zxxwin.github.io/post-images/1563242148622.jpg" alt=""><br>
+这是关于的页面，可以在这里向世界介绍你！</p>
+<ul>
+<li>11111</li>
+<li>333<br>
+<img src="https://zxxwin.github.io/post-images/1563242280322.jpg" alt=""></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zxxwin.github.io/post/hello-gridea</id>
