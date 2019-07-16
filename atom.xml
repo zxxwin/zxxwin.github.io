@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxxwin.github.io</id>
     <title>简之 - make AI easy</title>
-    <updated>2019-07-16T04:11:56.774Z</updated>
+    <updated>2019-07-16T07:08:24.887Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxxwin.github.io"/>
     <link rel="self" href="https://zxxwin.github.io/atom.xml"/>
-    <subtitle>&amp;emsp;&amp;emsp;随手记录机器学习、数据挖掘、深度学习相关笔记与代码，让人工智能变得更简单易学。</subtitle>
+    <subtitle>&amp;emsp;&amp;emsp;随手记录机器学习、数据挖掘、深度学习相关笔记与代码，让人工智能变得更简单易懂。</subtitle>
     <logo>https://zxxwin.github.io/images/avatar.png</logo>
     <icon>https://zxxwin.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 简之 - make AI easy</rights>
@@ -91,7 +91,7 @@ def normalize(x):
     return x
 </code></pre>
 <p>我们将会用到 Softmax 预测属于各个类别的概率，所以我们对 label 进行 one-hot 编码：</p>
-<pre><code class="language-python"># 对　lａbels　进行　one hot 编码
+<pre><code class="language-python"># 对　labels　进行　one hot 编码
 def one_hot_encode(lａbels):
     encoded = np.zeros((len(lａbels), 10))
     

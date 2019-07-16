@@ -316,19 +316,22 @@ a {
   text-decoration: none;
   color: #495057;
 }
+.v-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .sidebar {
   width: 320px;
   position: fixed;
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #7c8280;
+  background-color: #87cef8;
   background-size: cover;
   background-position: center;
-  background-image: url('../media/images/sidebar-bg.jpg');
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
 }
 .sidebar .menu-btn {
   display: none;
@@ -342,27 +345,27 @@ a {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 2px solid #F1F3F5;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 .sidebar .top-container .site-title {
   font-size: 24px;
   padding: 32px 0;
-  color: #dee2e6;
+  color: #fff;
 }
 .sidebar .top-container .site-nav {
+  font-size: 18px;
   display: block;
   padding: 8px 16px;
   margin: 16px 0;
-  color: #dee2e6;
+  color: #fff;
   transition: all 0.3s;
 }
 .sidebar .top-container .site-nav:hover {
-  color: #f8f9fa;
+  color: #fff;
 }
 .sidebar .bottom-container {
   padding: 24px 16px;
-  color: #dee2e6;
+  color: #fff;
   font-size: 12px;
 }
 .sidebar .bottom-container .site-description {
@@ -489,7 +492,9 @@ a {
   font-size: 18px;
   color: #495057;
 }
-.post-detail .post-content p code {
+.post-detail .post-content p code,
+.post-detail .post-content ul code,
+.post-detail .post-content ol code {
   padding: 0 3px;
   margin: 0 2px;
   background: #e9ecef;
