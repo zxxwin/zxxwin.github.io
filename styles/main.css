@@ -311,15 +311,11 @@ body {
   background: #f8f9fa;
   color: #495057;
   font-size: 16px;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
   color: #495057;
-}
-.v-center {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
 }
 .sidebar {
   width: 320px;
@@ -358,6 +354,7 @@ a {
   padding: 8px 16px;
   margin: 16px 0;
   color: #fff;
+  text-align: center;
   transition: all 0.3s;
 }
 .sidebar .top-container .site-nav:hover {
@@ -621,6 +618,13 @@ a {
 }
 .archives-container .post .post-title:hover {
   color: #212529;
+}
+@media (min-width: 800px) {
+  .v-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 @media (max-width: 800px) {
   .sidebar {
