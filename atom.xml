@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxxwin.github.io</id>
     <title>简之 - make AI easy</title>
-    <updated>2019-07-23T06:54:14.094Z</updated>
+    <updated>2019-07-23T06:56:36.605Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxxwin.github.io"/>
     <link rel="self" href="https://zxxwin.github.io/atom.xml"/>
@@ -124,7 +124,7 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 <p>参考链接：</p>
 <p><a href="https://vimsky.com/article/969.html">为什么L1稀疏，L2平滑？</a></p>
 <p><a href="https://www.zhihu.com/question/37096933/answer/475278057">l1 相比于 l2 为什么容易获得稀疏解？</a></p>
-<p>[L1 正则与 L2 正则的特点是什么，各有什么优势？@Andy Yang](https://www.zhihu.com/question/26485586#Andy Yang)</p>
+<p><a href="https://www.zhihu.com/question/26485586#Andy_Yang">L1 正则与 L2 正则的特点是什么，各有什么优势</a></p>
 ]]></content>
     </entry>
     <entry>
